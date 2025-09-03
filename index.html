@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansoor Ahmed — UI/UX & Brand Designer</title>
+    <meta name="description" content="I design pixel-perfect websites, Blogger themes, and brand visuals that convert.">
+    <meta property="og:title" content="Mansoor Ahmed — UI/UX & Brand Designer">
+    <meta property="og:description" content="Web design, Blogger customization, UI/UX and brand graphics delivered with clarity and speed.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.tsx" defer></script>
+</head>
+<body>
+
+    <header id="header">
+        <nav class="container">
+            <a href="#hero" class="logo">Mansoor Ahmed</a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#order" class="btn btn-primary nav-cta">Order Now</a>
+            <button id="menu-toggle" aria-label="Open navigation menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Design that looks good—and works even better.</h1>
+                <p class="subcopy">Web design, Blogger customization, UI/UX and brand graphics delivered with clarity and speed.</p>
+                <div class="hero-ctas">
+                    <a href="#order" class="btn btn-primary">Order Now</a>
+                    <a href="https://wa.me/923337239429?text=Hi%20Mansoor,%20I'd%20like%20to%20get%20a%20quote." target="_blank" class="btn btn-secondary">Get Quote on WhatsApp</a>
+                </div>
+                <div class="trust-bar">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> 100+ Projects</span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H3v18h18V11"></path><polyline points="13 2 13 9 21 9"></polyline></svg> Fast Delivery</span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 12H14a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h7.5a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2z"></path><path d="M5.5 12H3a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2"></path></svg> Responsive Design</span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 21l3.5-3.5"></path><circle cx="10.5" cy="10.5" r="7.5"></circle></svg> SEO Friendly</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="content-section">
+            <div class="container">
+                <h2>My Services</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <h3>Web Design (HTML/CSS/JS)</h3>
+                        <p>Landing pages, multi-page sites, responsive UI, animations, and performance optimization.</p>
+                        <a href="#order" class="btn-link" data-service="Web Design">Start Order &rarr;</a>
+                    </div>
+                    <div class="card">
+                        <h3>Blogger Customization</h3>
+                        <p>Custom XML themes, layout rebuilds, widgets/tools integration, SEO/meta, and speed fixes.</p>
+                        <a href="#order" class="btn-link" data-service="Blogger Customization">Start Order &rarr;</a>
+                    </div>
+                    <div class="card">
+                        <h3>UI/UX Design</h3>
+                        <p>Wireframes, hi-fi mockups (Figma), prototypes, design systems, and component libraries.</p>
+                        <a href="#order" class="btn-link" data-service="UI/UX Design">Start Order &rarr;</a>
+                    </div>
+                    <div class="card">
+                        <h3>Graphic & Logo Design</h3>
+                        <p>Logos, brand kits, social banners, thumbnails, and other marketing creatives.</p>
+                        <a href="#order" class="btn-link" data-service="Logo/Graphics">Start Order &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="content-section">
+            <div class="container">
+                <h2>Selected Work</h2>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="blogger">Blogger</button>
+                    <button class="filter-btn" data-filter="uiux">UI/UX</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Portfolio Item 1" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Corporate Website</h3>
+                            <a href="#" class="btn-link">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="blogger">
+                         <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Portfolio Item 2" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Lifestyle Blog Theme</h3>
+                            <a href="#" class="btn-link">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="uiux">
+                        <img src="https://images.unsplash.com/photo-1559028006-44a36f1159d5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Portfolio Item 3" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Mobile App UI Kit</h3>
+                            <a href="#" class="btn-link">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Portfolio Item 4" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>E-commerce Dashboard</h3>
+                            <a href="#" class="btn-link">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="content-section">
+            <div class="container">
+                <h2>Transparent Pricing</h2>
+                <p class="section-subcopy">Prices are base estimates—final quote after brief.</p>
+                <div class="grid-3">
+                    <div class="card pricing-card">
+                        <h3>Starter</h3>
+                        <div class="price"><span>$</span>150</div>
+                        <ul>
+                            <li>1 page or small task</li>
+                            <li>2 revisions</li>
+                            <li>3–5 days delivery</li>
+                        </ul>
+                        <a href="#order" class="btn btn-secondary order-package-btn" data-package="Starter">Order This Package</a>
+                    </div>
+                    <div class="card pricing-card featured">
+                        <h3>Pro</h3>
+                        <div class="price"><span>$</span>450</div>
+                        <ul>
+                            <li>Up to 5 pages</li>
+                            <li>5 revisions</li>
+                            <li>5–7 days delivery</li>
+                        </ul>
+                        <a href="#order" class="btn btn-primary order-package-btn" data-package="Pro">Order This Package</a>
+                    </div>
+                    <div class="card pricing-card">
+                        <h3>Business</h3>
+                        <div class="price"><span>$</span>900+</div>
+                        <ul>
+                            <li>Full website or theme</li>
+                            <li>Priority support</li>
+                            <li>7–14 days delivery</li>
+                        </ul>
+                        <a href="#order" class="btn btn-secondary order-package-btn" data-package="Business">Order This Package</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="order" class="content-section">
+            <div class="container">
+                <h2>Start Your Project</h2>
+                <form id="order-form" class="order-form">
+                    <div class="form-group">
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="whatsapp">WhatsApp*</label>
+                        <input type="tel" id="whatsapp" name="whatsapp" placeholder="+1234567890" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceType">Service Type*</label>
+                        <select id="serviceType" name="serviceType" required>
+                            <option value="">Select a service</option>
+                            <option value="Web Design">Web Design</option>
+                            <option value="Blogger Customization">Blogger Customization</option>
+                            <option value="UI/UX Design">UI/UX Design</option>
+                            <option value="Logo/Graphics">Logo/Graphics</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="package">Package*</label>
+                        <select id="package" name="package" required>
+                            <option value="Custom">Custom Quote</option>
+                            <option value="Starter">Starter ($150)</option>
+                            <option value="Pro">Pro ($450)</option>
+                            <option value="Business">Business ($900+)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                         <label for="budget">Budget Range*</label>
+                         <select id="budget" name="budget" required>
+                            <option value="$100–$300">$100 – $300</option>
+                            <option value="$300–$700">$300 – $700</option>
+                            <option value="$700–$1500">$700 – $1500</option>
+                            <option value="$1500+">$1500+</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="projectGoals">Project Goals*</label>
+                        <textarea id="projectGoals" name="projectGoals" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="assets">Brand Assets (logo, images, etc.)</label>
+                        <input type="file" id="assets" name="assets" multiple>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Submit Brief & Get Quote</button>
+                </form>
+                <div id="form-success-message" style="display: none;">
+                    <h3>Thank you!</h3>
+                    <p>Your project brief has been submitted. I'll get back to you within 24 hours. You can also message me directly on WhatsApp.</p>
+                    <a href="https://wa.me/923337239429?text=Hi%20Mansoor,%20I%20just%20submitted%20my%20order%20form!" target="_blank" class="btn btn-secondary">Chat on WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+             <div class="container">
+                <h2>About Me</h2>
+                <p class="section-subcopy">I’m Mansoor Ahmed, a designer who works on web design, Blogger customization, HTML/CSS/JS websites, and graphic design. My approach is simple: research → design → iterate → deliver. I use tools like Figma, VS Code, and Canva to bring ideas to life.</p>
+                 <div class="skills">
+                     <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Blogger XML</span><span>Figma</span><span>Canva</span>
+                 </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Ready to build something great?</h3>
+                <a href="mailto:hello@mansoorahmed.design" class="btn btn-primary">hello@mansoorahmed.design</a>
+                <div class="socials">
+                    <a href="#" aria-label="Behance">Behance</a>
+                    <a href="#" aria-label="Dribbble">Dribbble</a>
+                    <a href="#" aria-label="GitHub">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2024 Mansoor Ahmed</p>
+                <p>Available for freelance & long-term collaborations.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="floating-cta">
+        <a href="https://wa.me/923337239429?text=Hi%20Mansoor!" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        </a>
+        <a href="#order" class="order-float btn btn-primary">Order Now</a>
+    </div>
+
+</body>
+</html>
